@@ -1,0 +1,106 @@
+body{
+  background-image: url("images/trianglify.png");
+  background-size:cover;
+  font-family:'Proza Libre', sans-serif;
+  font-size:20px;
+  color:rgb(239, 247, 237);
+}
+
+h1{
+  color:rgb(137, 205, 183);
+  line-height:78px;
+  font-weight:600;
+  font-size:48px;
+}
+
+h2{
+  line-height:48px;
+  font-weight:300;
+  font-size:36px;
+}
+
+a{
+  color:rgb(125, 200, 176);
+  text-decoration: none;
+}
+
+.a-big{
+  font-size:36px;
+}
+
+a:hover{
+  color:rgb(194, 49, 80);
+}
+
+.image-profile{
+  border-radius:50%;
+  width:250px;
+  height: 250px;
+}
+
+.text-font{
+  font-family:'Open Sans', sans-serif;
+}
+
+.image-square{
+  width:400px;
+  heigth:460px;
+}
+
+.image-posterize{
+  border-radius:30px;
+}
+
+.card{
+  width:900px;
+  background: rgba(87, 74, 76, 0.7);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 40px;
+}
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.list-inline > li {
+  margin-left:80px;
+  margin-right:80px;
+  display:inline-block;
+  padding:0px 20px;
+  padding-left:10px;
+}
+
+.btn {
+    background-color: rgb(125, 200, 176);
+    color: rgb(194, 49, 80);
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.btn:hover{
+  color:rgb(225, 142, 158);
+  background-color:rgb(60, 92, 82);
+}
