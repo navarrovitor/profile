@@ -104,3 +104,18 @@ a:hover{
   color:rgb(225, 142, 158);
   background-color:rgb(60, 92, 82);
 }
+
+#sidebar{
+  background-color: rgba(87, 74, 76, 0.7);
+  font-size: 36px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100px;
+  text-align: center;
+}
+
+#page-content {
+  margin-left: 300px;
+}
