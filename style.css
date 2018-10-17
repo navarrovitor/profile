@@ -68,6 +68,10 @@ a:hover{
   text-align: center;
 }
 
+.text-justify{
+  text-align: justify;
+}
+
 @media (max-width: 960px) {
   .container {
     width: 700px;
